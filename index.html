@@ -19,28 +19,36 @@
         </div>
       </div>
       <div class="row">
+
         <div class="col s12">
           <form id="formConversao" class="col s12" action="index.html" method="post">
             <div class="row">
-              <div class="col s2 offset-s10">
+              <div class="input-field col s5">
+                <label for="txtNomeClasse">Nome da classe</label>
+                <input type="text" name="txtNomeClasse" id="txtNomeClasse" value="" class="validate">
+              </div>
+
+              <!-- </div> -->
+              <div class="col s2 offset-s5">
                 <input type="submit" name="btnConverter" id="btnConverter" value="Converter" class="waves-effect waves-light btn"/>
 
               </div>
-              <div class="row" id="blockUI" style="display:none;">
-                <div class="col s8 offset-s2">
-                  <div class="progress">
-                      <div class="indeterminate"></div>
-                  </div>
-                </div>
-              </div>
+            </div>
+            <div class="row">
+              <!-- <div class=" "> -->
+
               <div class="input-field col s6">
 
                 <textarea name="txtXml" id="txtXml" class="materialize-textarea"></textarea>
                 <label class="active" for="txtXml">Xml para conversão</label>
               </div>
               <div class="input-field col s6">
-                <textarea name="txtClass" id="txtClass" class="materialize-textarea"></textarea>
+
                 <label class="active" for="txtClass">Classe do Apex</label>
+                <pre >
+                  <code id="txtClass">
+                  </code>
+                </pre>
               </div>
             </div>
 

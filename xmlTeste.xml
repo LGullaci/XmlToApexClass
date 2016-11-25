@@ -1,0 +1,10 @@
+<Envelope>
+	<Body>
+		<foo>
+			<id>1</id>
+			<foobar>
+				<shortDesc>Teste</shortDesc>
+			</foobar>
+		</foo>
+	</Body>
+</Envelope>
